@@ -6,8 +6,6 @@
 
 [cite_start]This repository contains the official implementation of the **Method of Controlled Neural Network Generation** for psychoeducational chatbot responses[cite: 729]. [cite_start]The system utilizes a **Retrieval-Augmented Generation (RAG)** architecture to provide accurate, safe, and context-aware information support in the field of mental health and psychosomatics[cite: 815, 820].
 
-> [cite_start]**Note:** This project was developed as a Bachelor's Thesis at Khmelnytskyi National University (2026)[cite: 695].
-
 ---
 
 ## Overview
