@@ -66,6 +66,7 @@ Technical testing on the psychosomatic domain yielded the following results:
    ```bash
    pip install -r requirements.txt
 2. **Environment Setup:**
+   Create a .env file in the root directory:
    ```bash
    TELEGRAM_BOT_TOKEN=your_token
    OPENAI_API_KEY=your_key
