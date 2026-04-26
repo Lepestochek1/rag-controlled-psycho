@@ -10,11 +10,11 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 In mental health applications, generic AI responses can pose risks. [cite_start]**PsychoGen-RAG** addresses this by implementing a controlled generation pipeline[cite: 780, 908]. [cite_start]Instead of relying solely on pre-trained knowledge, the system retrieves verified data and applies a semantic safety threshold to ensure responses are grounded in expert literature[cite: 820, 1094].
 
-## ✨ Key Features
+## Key Features
 
 * [cite_start]**RAG-Enhanced Accuracy:** Uses a vector database (ChromaDB) to ground responses in expert literature, such as the works of Liz Burbo[cite: 1012, 1085].
 * [cite_start]**Multi-Stage Safety Control:** Implements a validation protocol ($S(y) \geq \theta$) to filter out irrelevant or harmful content[cite: 914, 969].
@@ -23,7 +23,7 @@ In mental health applications, generic AI responses can pose risks. [cite_start]
 
 ---
 
-## 🧠 Our Methodology
+## Our Methodology
 
 [cite_start]The framework decomposes the complex task of generating safe psychoeducational content into three specialized stages[cite: 933]:
 
@@ -40,7 +40,7 @@ $$F = \alpha R + \beta C + \gamma S$$
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 [cite_start]The project is structured into three core functional modules[cite: 1103]:
 1.  [cite_start]**RAGService:** The central logic hub connecting the vector database and the LLM[cite: 1108].
@@ -49,7 +49,7 @@ $$F = \alpha R + \beta C + \gamma S$$
 
 ---
 
-## 📊 Performance Highlights
+## Performance Highlights
 
 Technical testing on the psychosomatic domain yielded the following results:
 * [cite_start]**Recall@3:** Achieved an average score of **0.7**, indicating high efficiency in retrieving relevant context[cite: 1206].
@@ -58,7 +58,7 @@ Technical testing on the psychosomatic domain yielded the following results:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -77,14 +77,6 @@ Technical testing on the psychosomatic domain yielded the following results:
     TELEGRAM_BOT_TOKEN=your_token
     OPENAI_API_KEY=your_key
     ```
-
----
-
-## 🤝 Acknowledgements
-
-* **Thesis Supervisor:** Ph.D., Assoc. [cite_start]Prof. Oleksandr Mazurets[cite: 731].
-* [cite_start]**Institution:** Khmelnytskyi National University, Department of Computer Science[cite: 695, 698].
-* [cite_start]**Data Source:** Inspired by the psychosomatic research of Liz Burbo[cite: 1012].
 
 ---
 
