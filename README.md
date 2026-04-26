@@ -8,11 +8,11 @@ This repository contains the official implementation of the **Method of Controll
 
 ---
 
-## 📋 Overview
+## Overview
 
 In mental health applications, generic AI responses can pose risks. **PsychoGen-RAG** addresses this by implementing a controlled generation pipeline. Instead of relying solely on pre-trained knowledge, the system retrieves verified data and applies a semantic safety threshold to ensure responses are grounded in expert literature.
 
-## ✨ Key Features
+## Key Features
 
 * **RAG-Enhanced Accuracy:** Uses a vector database (ChromaDB) to ground responses in expert literature, such as the works of Liz Burbo.
 * **Multi-Stage Safety Control:** Implements a validation protocol ($S(y) \geq \theta$) to filter out irrelevant or harmful content.
@@ -21,7 +21,7 @@ In mental health applications, generic AI responses can pose risks. **PsychoGen-
 
 ---
 
-## 🧠 Our Methodology
+## Our Methodology
 
 The framework decomposes the complex task of generating safe psychoeducational content into three specialized stages:
 
@@ -38,7 +38,7 @@ Where $R$ is relevance, $C$ is consistency, and $S$ is the safety score.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 The project is structured into three core functional modules:
 1. **RAGService:** The central logic hub connecting the vector database and the LLM.
@@ -47,7 +47,7 @@ The project is structured into three core functional modules:
 
 ---
 
-## 📊 Performance Highlights
+## Performance Highlights
 
 Technical testing on the psychosomatic domain yielded the following results:
 * **Recall@3:** Achieved an average score of **0.7**, indicating high efficiency in retrieving relevant context.
@@ -56,7 +56,7 @@ Technical testing on the psychosomatic domain yielded the following results:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
